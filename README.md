@@ -1,2 +1,2 @@
-# altschoool_assignment
+# altschool_assignment
 For my alt school first semester assignment
