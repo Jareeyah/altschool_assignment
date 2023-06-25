@@ -1,3 +1,6 @@
+@import url("https://fonts.cdnfonts.com/css/Gilroy-Bold");
+@import url("https://fonts.cdnfonts.com/css/Gilroy-Medium");
+@import url("https://fonts.cdnfonts.com/css/Gilroy-SemiBold");
 *{
     text-decoration: none;
     padding: 0;
@@ -193,10 +196,12 @@ li{
 .first{
     display: flex;
     gap: 28px;
+    font-family: 'Gilroy-Medium';
 }
 .second{
     display: flex;
     gap: 28px;
+    font-family: 'Gilroy-Medium'
 }
 .first>div, .second>div{
     width: 340px;
@@ -422,13 +427,13 @@ li{
     height: 48px;
     display: flex;
     gap: 16px;
-    margin-left: 420px;
+    margin-left: 400px;
     position: absolute;
 }
 .accordion{
     align-items: flex-start;
-    margin-left: 280px;
-    margin-right: 280px;
+    margin-left: 320px;
+    margin-right: 320px;
 }
 .faq{
     font-size: 40px;
@@ -439,22 +444,34 @@ li{
 .accordion-header{
     font-size: 18px;
     font-family: 'Gilroy-Medium';
-    line-height: 48px;
+    line-height: 55px;
     padding: 8px;
     font-size: 17px;
+    border-bottom: 2px solid #D6D6D6;
 }
 .accordion>img{
     width: 10px;
     height: 48px;
     display: flex;
     gap: 16px;
-    margin-left: 285px;
+    margin-left: 257px;
     position: absolute;
 }
 .accordion-body{
-    line-height: 48px;
+    line-height: 55px;
     font-family: 'Gilroy-Medium';
     font-size: 14px;
+}
+.plus{
+    position: absolute;
+    right: 300px;
+    line-height: 30px;
+    margin-top: -35px;
+}
+.minus{
+    position: absolute;
+    right: 300px;
+    margin-top: 15px;
 }
 .rev{
     width: 1300px;
@@ -465,7 +482,7 @@ li{
 .rlo{
     text-align: center;
     position: absolute;
-    top: 4250px;
+    top: 4550px;
     left: 400px;
 }
 .opt{
@@ -479,9 +496,59 @@ li{
     color: white;
     border: 0;
     width: 190px;
-    margin-top: 20px;
+    margin-top: 25px;
     border-radius: 28px;
 }
 .footer{
+    margin-left: 220px;
+    margin-right: 180px;
+    gap: 50px;
+}
+.sci{
+    flex-direction: column;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 70px;
+}
+.end{
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 240px;
+    margin-right: 240px;
+    line-height: 8px;
+    margin-top: -100px;
+}
+.question{
+    font-size: 16px;
+    font-family: 'Gilroy-Bold';
+    line-height: 50px;
+}
+.int{
+    font-size: 16px;
+    font-family: 'Gilroy-Medium';
+    line-height: 24px;
+    width: 150px;
+    height: 120px;
+}
+.top{
+    display: flex;
+    gap: 28px;
+    font-family: 'Gilroy-Medium';
+
+}
+.bottom{
+    display: flex;
+    gap: 28px;
+    font-family: 'Gilroy-Medium';
+}
+.terms{
+    font-family: 'Gilroy-Medium';
+    margin-left: 890px;
+    margin-top: 97px;
+}
+.serv{
+    margin-left: 20px;
 }
